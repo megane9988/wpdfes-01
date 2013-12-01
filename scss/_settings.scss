@@ -36,7 +36,7 @@ $row-width: 1100px;
 // $total-columns: 12;
 
 // We use these to control various global styles
-$body-bg: #fff;
+$body-bg: #e6e2de;
 $body-font-color: #444;
 $header-font-color: #444;
 $body-font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
@@ -52,9 +52,9 @@ $body-font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メ�
 // $default-float: left;
 
 // We use these as default colors throughout
-$primary-color: #940e83;
-$secondary-color: #186088;
-// $alert-color: #f04124;
+$primary-color: #620042;
+$secondary-color: #80725c;
+$alert-color: #07A0A0;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
@@ -839,17 +839,21 @@ $secondary-color: #186088;
 // $include-html-table-classes: $include-html-classes;
 
 // These control the background color for the table and even rows
+$table-bg: #f2f0ed;
 // $table-bg: #fff;
 // $table-even-row-bg: #f9f9f9  ;
 
 // These control the table cell border style
 // $table-border-style: solid;
 // $table-border-size: 1px;
+$table-border-color: #ada598;
 // $table-border-color: #ddd;
 
 // These control the table head styles
+$table-head-bg: #c5beb8;
 // $table-head-bg: #f5f5f5  ;
 // $table-head-font-size: rem-calc(14);
+$table-head-font-color: #5e4f38;
 // $table-head-font-color: #222;
 // $table-head-font-weight: bold;
 // $table-head-padding: rem-calc(8 10 10);

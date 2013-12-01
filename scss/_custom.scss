@@ -2,25 +2,24 @@
 .full{
 	width:100%;
 }
-a{
+a:hover{
 	text-decoration: underline;
 }
 h1,h2,h3,h4,h5{
-	font-family: 'Archivo Black',"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
 	letter-spacing: -2px;
-}
-h2{
-	color: $secondary-color; 
 }
 	p,li{
 		font-size: 0.875rem;
 	}
+hr{
+	color: #ADA598; 
+}
 // Layout
 .main-img{
 	margin-bottom: 50px;
 }
 .ticket{
-	background-color: #fcf1ce;
+	background-color: #e6e2de;
 	padding: 20px;
 	a{
 		margin: 0;
@@ -31,6 +30,47 @@ h2{
 		padding: 0; 
 	}
 }
+.banner img,
+img.banner{
+	margin-bottom: 20px;
+}
+.horizon li{
+	display: inline;
+	margin-right: 20px;
+}
+.main-img{
+	background-color: #940E83; 
+	background-image: url(../img/main.png);
+	background-position: center top;
+	height: 300px;
+	.main-img-title{
+		padding: 30px;
+		margin-top: 20px;
+		background-color: rgba(88, 8, 85, 0.6);
+		h1,h2{
+			margin-top: 0;
+			color: #FFF;
+		}
+		h3{
+			color: #E27A7A;
+			margin-bottom: 0;
+			span{
+				font-size: 1rem;
+			}
+		}
+		p{
+			color: #DFB0B0; 
+		}
+	}
+}
+.front{
+	h3{
+		color: $secondary-color;
+		border-bottom: 1px solid #d8cebe;
+		-webkit-box-shadow: 0 1px 0 #f2efea;
+		box-shadow: 0 1px 0 #f2efea;
+	}
+}
 // module
 .l-title{
 	padding-top: 50px;
@@ -38,7 +78,7 @@ h2{
 	h2{
 		margin: 0;
 		padding-top: 10px;
-		font-size: 5rem;
+		font-size: 2.5rem;
 		color: $secondary-color;
 	}
 	h4{
@@ -54,9 +94,10 @@ h2{
 		font-size: 0.875rem;
 	}
 }
-
 .prof{
-	border-bottom: 1px solid #ccc; 
+	border-bottom: 1px solid #d8cebe;
+	-webkit-box-shadow: 0 1px 0 #f2efea;
+	box-shadow: 0 1px 0 #f2efea;
 	margin-bottom: 10px;
 	.left.grav{
 		margin-right: 10px;
@@ -67,6 +108,28 @@ h2{
 }
 .prof.last{
 	border:none;
+	box-shadow: none;
+	margin-bottom: none;
+}
+@media screen and (max-width: 40em) {
+	.main-img{
+		background-color: #940E83; 
+		background-image: url(../img/mainsp.png);
+		height: 400px;
+	}	
+	.prof.last{
+		border-bottom: 1px solid #d8cebe;
+		box-shadow: 0 1px 0 #f2efea;
+		margin-bottom: 10px;
+	}
+	h3{
+		span{
+			display: block;
+		}
+	}
+	.s-title span{
+		margin-left: 0;
+	}
 }
 // state
 
