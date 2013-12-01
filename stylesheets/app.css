@@ -6504,12 +6504,12 @@ meta.foundation-mq-topbar {
 }
 /* line 237, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
-  color: #888888;
+  color: #d49fcd;
 }
 /* line 238, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a span {
-  -webkit-box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
-  box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
+  -webkit-box-shadow: 0 10px 0 1px #d49fcd, 0 16px 0 1px #d49fcd, 0 22px 0 1px #d49fcd;
+  box-shadow: 0 10px 0 1px #d49fcd, 0 16px 0 1px #d49fcd, 0 22px 0 1px #d49fcd;
 }
 
 /* line 258, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -6526,7 +6526,7 @@ meta.foundation-mq-topbar {
   width: 100%;
   height: auto;
   display: block;
-  background: #333333;
+  background: #b456a8;
   font-size: 16px;
   margin: 0;
 }
@@ -6548,7 +6548,7 @@ meta.foundation-mq-topbar {
   font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
-  background: #333333;
+  background: #b456a8;
 }
 /* line 293, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
@@ -6587,7 +6587,7 @@ meta.foundation-mq-topbar {
 }
 /* line 324, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li:hover > a {
-  background: #272727;
+  background: #7d0c6e;
   color: white;
 }
 /* line 331, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -6747,7 +6747,7 @@ meta.foundation-mq-topbar {
   }
   /* line 455, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.hover > a:not(.button) {
-    background: #272727;
+    background: #7d0c6e;
     color: white;
   }
   /* line 460, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -6758,7 +6758,7 @@ meta.foundation-mq-topbar {
   }
   /* line 464, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li a:not(.button):hover {
-    background: #272727;
+    background: #7d0c6e;
   }
   /* line 472, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown > a {
@@ -6848,7 +6848,7 @@ meta.foundation-mq-topbar {
 
   /* line 567, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
-    background: #272727;
+    background: #7d0c6e;
     color: white;
   }
   /* line 573, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7706,67 +7706,62 @@ th.hide-for-touch {
 }
 
 /* line 2, ../scss/_custom.scss */
-body {
-  margin-top: 40px;
-}
-
-/* line 5, ../scss/_custom.scss */
 .full {
   width: 100%;
 }
 
-/* line 9, ../scss/_custom.scss */
+/* line 6, ../scss/_custom.scss */
 .main-img {
   margin-bottom: 50px;
 }
 
-/* line 13, ../scss/_custom.scss */
+/* line 10, ../scss/_custom.scss */
 .l-title {
   padding-top: 50px;
   margin-bottom: 20px;
 }
-/* line 16, ../scss/_custom.scss */
+/* line 13, ../scss/_custom.scss */
 .l-title h2 {
   border-top: 3px double #ccc;
   margin: 0;
   padding-top: 10px;
   color: #940e83;
 }
-/* line 22, ../scss/_custom.scss */
+/* line 19, ../scss/_custom.scss */
 .l-title h4 {
   font-size: 0.875rem;
 }
 
-/* line 26, ../scss/_custom.scss */
+/* line 23, ../scss/_custom.scss */
 .s-title {
   border-left: 8px solid #940e83;
   padding: 5px 0 5px 15px;
 }
-/* line 29, ../scss/_custom.scss */
+/* line 26, ../scss/_custom.scss */
 .s-title span {
   margin-left: 20px;
   font-size: 0.875rem;
 }
 
-/* line 34, ../scss/_custom.scss */
+/* line 31, ../scss/_custom.scss */
 .prof {
   border-bottom: 1px solid #ccc;
   margin-bottom: 10px;
 }
-/* line 37, ../scss/_custom.scss */
+/* line 34, ../scss/_custom.scss */
 .prof .left.grav {
   margin-right: 10px;
 }
-/* line 40, ../scss/_custom.scss */
+/* line 37, ../scss/_custom.scss */
 .prof .prof-right {
   overflow: hidden;
 }
-/* line 43, ../scss/_custom.scss */
+/* line 40, ../scss/_custom.scss */
 .prof p, .prof li {
   font-size: 0.875rem;
 }
 
-/* line 47, ../scss/_custom.scss */
+/* line 44, ../scss/_custom.scss */
 .prof.last {
   border: none;
 }
