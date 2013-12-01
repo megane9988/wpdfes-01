@@ -7743,25 +7743,25 @@ th.hide-for-touch {
   font-size: 0.875rem;
 }
 
-/* line 31, ../scss/_custom.scss */
+/* line 32, ../scss/_custom.scss */
 .prof {
   border-bottom: 1px solid #ccc;
   margin-bottom: 10px;
 }
-/* line 34, ../scss/_custom.scss */
+/* line 35, ../scss/_custom.scss */
 .prof .left.grav {
   margin-right: 10px;
 }
-/* line 37, ../scss/_custom.scss */
+/* line 38, ../scss/_custom.scss */
 .prof .prof-right {
   overflow: hidden;
 }
-/* line 40, ../scss/_custom.scss */
+/* line 41, ../scss/_custom.scss */
 .prof p, .prof li {
   font-size: 0.875rem;
 }
 
-/* line 44, ../scss/_custom.scss */
+/* line 45, ../scss/_custom.scss */
 .prof.last {
   border: none;
 }
