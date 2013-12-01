@@ -7763,39 +7763,7 @@ img.banner {
   margin-right: 20px;
 }
 
-/* line 41, ../scss/_custom.scss */
-.main-img {
-  background-color: #940E83;
-  background-image: url(../img/main.png);
-  background-position: center top;
-  height: 300px;
-}
-/* line 46, ../scss/_custom.scss */
-.main-img .main-img-title {
-  padding: 30px;
-  margin-top: 20px;
-  background-color: rgba(88, 8, 85, 0.6);
-}
-/* line 50, ../scss/_custom.scss */
-.main-img .main-img-title h1, .main-img .main-img-title h2 {
-  margin-top: 0;
-  color: #FFF;
-}
-/* line 54, ../scss/_custom.scss */
-.main-img .main-img-title h3 {
-  color: #E27A7A;
-  margin-bottom: 0;
-}
-/* line 57, ../scss/_custom.scss */
-.main-img .main-img-title h3 span {
-  font-size: 1rem;
-}
-/* line 61, ../scss/_custom.scss */
-.main-img .main-img-title p {
-  color: #DFB0B0;
-}
-
-/* line 67, ../scss/_custom.scss */
+/* line 42, ../scss/_custom.scss */
 .front h3 {
   color: #80725c;
   border-bottom: 1px solid #d8cebe;
@@ -7803,52 +7771,106 @@ img.banner {
   box-shadow: 0 1px 0 #f2efea;
 }
 
-/* line 75, ../scss/_custom.scss */
+/* line 50, ../scss/_custom.scss */
+.main-img {
+  background-color: #940E83;
+  background-image: url(../img/main.png);
+  background-position: center top;
+  height: 300px;
+}
+/* line 55, ../scss/_custom.scss */
+.main-img .main-img-title {
+  padding: 30px;
+  margin-top: 20px;
+  background-color: rgba(88, 8, 85, 0.6);
+}
+/* line 59, ../scss/_custom.scss */
+.main-img .main-img-title h1, .main-img .main-img-title h2 {
+  margin-top: 0;
+  color: #FFF;
+}
+/* line 63, ../scss/_custom.scss */
+.main-img .main-img-title h3 {
+  color: #E27A7A;
+  margin-bottom: 0;
+}
+/* line 66, ../scss/_custom.scss */
+.main-img .main-img-title h3 span {
+  font-size: 1rem;
+}
+/* line 70, ../scss/_custom.scss */
+.main-img .main-img-title p {
+  color: #DFB0B0;
+}
+
+/* line 76, ../scss/_custom.scss */
+.main-img.next {
+  background-color: #fff;
+  background-image: url(../img/next-summer.jpg);
+}
+/* line 79, ../scss/_custom.scss */
+.main-img.next .main-img-title {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+/* line 81, ../scss/_custom.scss */
+.main-img.next .main-img-title h1, .main-img.next .main-img-title h2 {
+  color: #000;
+}
+/* line 84, ../scss/_custom.scss */
+.main-img.next .main-img-title h3 {
+  color: #000;
+}
+/* line 87, ../scss/_custom.scss */
+.main-img.next .main-img-title p {
+  color: #000;
+}
+
+/* line 92, ../scss/_custom.scss */
 .l-title {
   padding-top: 50px;
   margin-bottom: 20px;
 }
-/* line 78, ../scss/_custom.scss */
+/* line 95, ../scss/_custom.scss */
 .l-title h2 {
   margin: 0;
   padding-top: 10px;
   font-size: 2.5rem;
   color: #80725c;
 }
-/* line 84, ../scss/_custom.scss */
+/* line 101, ../scss/_custom.scss */
 .l-title h4 {
   font-size: 0.875rem;
   color: #80725c;
 }
 
-/* line 89, ../scss/_custom.scss */
+/* line 106, ../scss/_custom.scss */
 .s-title {
   border-left: 8px solid #620042;
   padding: 5px 0 5px 15px;
 }
-/* line 92, ../scss/_custom.scss */
+/* line 109, ../scss/_custom.scss */
 .s-title span {
   margin-left: 20px;
   font-size: 0.875rem;
 }
 
-/* line 97, ../scss/_custom.scss */
+/* line 114, ../scss/_custom.scss */
 .prof {
   border-bottom: 1px solid #d8cebe;
   -webkit-box-shadow: 0 1px 0 #f2efea;
   box-shadow: 0 1px 0 #f2efea;
   margin-bottom: 10px;
 }
-/* line 102, ../scss/_custom.scss */
+/* line 119, ../scss/_custom.scss */
 .prof .left.grav {
   margin-right: 10px;
 }
-/* line 105, ../scss/_custom.scss */
+/* line 122, ../scss/_custom.scss */
 .prof .prof-right {
   overflow: hidden;
 }
 
-/* line 109, ../scss/_custom.scss */
+/* line 126, ../scss/_custom.scss */
 .prof.last {
   border: none;
   box-shadow: none;
@@ -7856,26 +7878,26 @@ img.banner {
 }
 
 @media screen and (max-width: 40em) {
-  /* line 115, ../scss/_custom.scss */
+  /* line 132, ../scss/_custom.scss */
   .main-img {
     background-color: #940E83;
     background-image: url(../img/mainsp.png);
     height: 400px;
   }
 
-  /* line 120, ../scss/_custom.scss */
+  /* line 137, ../scss/_custom.scss */
   .prof.last {
     border-bottom: 1px solid #d8cebe;
     box-shadow: 0 1px 0 #f2efea;
     margin-bottom: 10px;
   }
 
-  /* line 126, ../scss/_custom.scss */
+  /* line 143, ../scss/_custom.scss */
   h3 span {
     display: block;
   }
 
-  /* line 130, ../scss/_custom.scss */
+  /* line 147, ../scss/_custom.scss */
   .s-title span {
     margin-left: 0;
   }

@@ -38,6 +38,15 @@ img.banner{
 	display: inline;
 	margin-right: 20px;
 }
+.front{
+	h3{
+		color: $secondary-color;
+		border-bottom: 1px solid #d8cebe;
+		-webkit-box-shadow: 0 1px 0 #f2efea;
+		box-shadow: 0 1px 0 #f2efea;
+	}
+}
+// module
 .main-img{
 	background-color: #940E83; 
 	background-image: url(../img/main.png);
@@ -63,15 +72,23 @@ img.banner{
 		}
 	}
 }
-.front{
-	h3{
-		color: $secondary-color;
-		border-bottom: 1px solid #d8cebe;
-		-webkit-box-shadow: 0 1px 0 #f2efea;
-		box-shadow: 0 1px 0 #f2efea;
+
+.main-img.next{
+	background-color: #fff; 
+	background-image: url(../img/next-summer.jpg);
+	.main-img-title{
+		background-color: rgba(255, 255, 255, 0.6);
+		h1,h2{
+			color: #000;
+		}
+		h3{
+			color: #000;
+		}
+		p{
+			color: #000; 
+		}
 	}
 }
-// module
 .l-title{
 	padding-top: 50px;
 	margin-bottom: 20px;
