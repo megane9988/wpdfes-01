@@ -2,22 +2,48 @@
 .full{
 	width:100%;
 }
+a{
+	text-decoration: underline;
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Archivo Black',"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+	letter-spacing: -2px;
+}
+h2{
+	color: $secondary-color; 
+}
+	p,li{
+		font-size: 0.875rem;
+	}
 // Layout
 .main-img{
 	margin-bottom: 50px;
+}
+.ticket{
+	background-color: #fcf1ce;
+	padding: 20px;
+	a{
+		margin: 0;
+	}
+	h2{
+		color: #FFF;
+		margin: 0;
+		padding: 0; 
+	}
 }
 // module
 .l-title{
 	padding-top: 50px;
 	margin-bottom: 20px;
 	h2{
-		border-top: 3px double #ccc;
 		margin: 0;
 		padding-top: 10px;
-		color: $primary-color; 
+		font-size: 5rem;
+		color: $secondary-color;
 	}
 	h4{
-		font-size: 0.875rem 
+		font-size: 0.875rem;
+		color: $secondary-color; 
 	}
 }
 .s-title{
@@ -37,9 +63,6 @@
 	}
 	.prof-right{
 		overflow: hidden;
-	}
-	p,li{
-		font-size: 0.875rem;
 	}
 }
 .prof.last{
