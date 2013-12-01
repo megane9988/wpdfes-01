@@ -1,0 +1,52 @@
+// base
+body{
+	margin-top: 40px;
+}
+.full{
+	width:100%;
+}
+// Layout
+.main-img{
+	margin-bottom: 50px;
+}
+// module
+.l-title{
+	padding-top: 50px;
+	margin-bottom: 20px;
+	h2{
+		border-top: 3px double #ccc;
+		margin: 0;
+		padding-top: 10px;
+		color: $primary-color; 
+	}
+	h4{
+		font-size: 0.875rem 
+	}
+}
+.s-title{
+	border-left: 8px solid $primary-color;
+	padding: 5px 0 5px 15px;
+	span{
+		margin-left: 20px;
+		font-size: 0.875rem;
+	}
+}
+.prof{
+	border-bottom: 1px solid #ccc; 
+	margin-bottom: 10px;
+	.left.grav{
+		margin-right: 10px;
+	}
+	.prof-right{
+		overflow: hidden;
+	}
+	p,li{
+		font-size: 0.875rem;
+	}
+}
+.prof.last{
+	border:none;
+}
+// state
+
+// theme
