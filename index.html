@@ -29,6 +29,8 @@
             <li class="divider"></li>
             <li><a href="#sponsor">Sponsor</a></li>
             <li class="divider"></li>
+            <li><a href="#nextevent">Next Event</a></li>
+            <li class="divider"></li>
           </ul>
         </section>
       </nav>
@@ -116,8 +118,8 @@
     </div>
     <div class="row">
       <div id="timetable" class="large-12 columns l-title text-center">
-        <h2>Time Table / Speaker</h2>
-        <h4>タイムテーブル / スピーカー</h4>
+        <h2>Time Table</h2>
+        <h4>タイムテーブル</h4>
       </div>
     </div>
     <div class="row">
@@ -372,7 +374,7 @@
       </div>
     </div>
     <div class="row">
-      <div id="sponsor" class="large-12 columns l-title text-center">
+      <div id="nextevent" class="large-12 columns l-title text-center">
         <h2>Next Event</h2>
         <h4>次回予告</h4>
       </div>
@@ -406,8 +408,40 @@
         
       </div>
     </div>
+    <a id="pageTop" href="#top">▲TOP</a>
     <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
+    <!-- スムーズスクロールとTOPに戻るボタン-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+      $('a[href^=#]').click(function(){
+        var speed = 500;
+        var href= $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top;
+        $("html, body").animate({scrollTop:position}, speed, "swing");
+        return false;
+      });
+    });
+    $(function() {
+      var topBtn = $('#pageTop');
+      topBtn.hide();
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          topBtn.fadeIn();
+        } else {
+          topBtn.fadeOut();
+        }
+      });
+        topBtn.click(function () {
+        $('body,html').animate({
+          scrollTop: 0
+        }, 1000);
+        return false;
+        });
+    });
+    </script>
   </body>
 </html>
